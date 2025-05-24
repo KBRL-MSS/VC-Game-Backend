@@ -8,16 +8,18 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.CompoundIndex;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.CompoundIndex;
+import org.springframework.data.mongodb.core.mapping.Document;
+import java.time.LocalDateTime;
+
 @Data
 @Document(collection = "friend_requests")
-@CompoundIndex(
-    name = "sender_receiver_idx",
-    def = "{'senderId': 1, 'receiverId': 1}",
-    unique = true)
-@AllArgsConstructor
-@NoArgsConstructor
+@CompoundIndex(name = "sender_receiver_idx", def = "{'senderId': 1, 'receiverId': 1}", unique = true)
 public class FriendRequest {
-  @Id private String id;
+  @Id
+  private String id;
 
   private String senderId;
   private String receiverId;
