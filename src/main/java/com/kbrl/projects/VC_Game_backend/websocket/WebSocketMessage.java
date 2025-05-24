@@ -12,15 +12,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 class StatusUpdateRequest {
-    private UserSession.UserStatus status;
+  private UserSession.UserStatus status;
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class StatusUpdateResponse {
-    private String userId;
-    private UserSession.UserStatus status;
+  private String userId;
+  private UserSession.UserStatus status;
 }
 
 // Party messages
@@ -28,96 +28,96 @@ class StatusUpdateResponse {
 @NoArgsConstructor
 @AllArgsConstructor
 class CreatePartyRequest {
-    private String name;
+  private String name;
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class PartyResponse {
-    private String id;
-    private String name;
-    private String leaderId;
-    private java.util.Set<String> members;
-    private boolean voiceEnabled;
+  private String id;
+  private String name;
+  private String leaderId;
+  private java.util.Set<String> members;
+  private boolean voiceEnabled;
 
-    public PartyResponse(Party party) {
-        this.id = party.getId();
-        this.name = party.getName();
-        this.leaderId = party.getLeaderId();
-        this.members = party.getMembers();
-        this.voiceEnabled = party.isVoiceEnabled();
-    }
+  public PartyResponse(Party party) {
+    this.id = party.getId();
+    this.name = party.getName();
+    this.leaderId = party.getLeaderId();
+    this.members = party.getMembers();
+    this.voiceEnabled = party.isVoiceEnabled();
+  }
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class PartyInviteRequest {
-    private String partyId;
-    private String receiverId;
+  private String partyId;
+  private String receiverId;
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class PartyInviteResponse {
-    private String id;
-    private String partyId;
-    private String partyName;
-    private String senderId;
-    private String senderName;
+  private String id;
+  private String partyId;
+  private String partyName;
+  private String senderId;
+  private String senderName;
 
-    public PartyInviteResponse(PartyInvite invite) {
-        this.id = invite.getId();
-        this.partyId = invite.getPartyId();
-        this.senderId = invite.getSenderId();
-        // Note: Party name and sender name would need to be looked up
-    }
+  public PartyInviteResponse(PartyInvite invite) {
+    this.id = invite.getId();
+    this.partyId = invite.getPartyId();
+    this.senderId = invite.getSenderId();
+    // Note: Party name and sender name would need to be looked up
+  }
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class InviteActionRequest {
-    private String inviteId;
+  private String inviteId;
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class PartyActionRequest {
-    private String partyId;
+  private String partyId;
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class VoiceChannelRequest {
-    private String partyId;
-    private boolean enabled;
+  private String partyId;
+  private boolean enabled;
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class VoiceChannelResponse {
-    private String partyId;
-    private boolean enabled;
+  private String partyId;
+  private boolean enabled;
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class VoiceSignalRequest {
-    private String targetUserId;
-    private Object signalData;  // WebRTC signaling data
+  private String targetUserId;
+  private Object signalData; // WebRTC signaling data
 }
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class VoiceSignalResponse {
-    private String fromUserId;
-    private Object signalData;  // WebRTC signaling data
+  private String fromUserId;
+  private Object signalData; // WebRTC signaling data
 }
