@@ -1,9 +1,9 @@
 package com.kbrl.projects.VC_Game_backend.service;
 
-import com.kbrl.projects.VC_Game_backend.models.Friend;
-import com.kbrl.projects.VC_Game_backend.models.FriendRequest;
-import com.kbrl.projects.VC_Game_backend.models.User;
-import com.kbrl.projects.VC_Game_backend.models.UserSession;
+import com.kbrl.projects.VC_Game_backend.model.Friend;
+import com.kbrl.projects.VC_Game_backend.model.FriendRequest;
+import com.kbrl.projects.VC_Game_backend.model.User;
+import com.kbrl.projects.VC_Game_backend.model.UserSession;
 import com.kbrl.projects.VC_Game_backend.repository.FriendRepository;
 import com.kbrl.projects.VC_Game_backend.repository.FriendRequestRepository;
 import com.kbrl.projects.VC_Game_backend.repository.UserRepository;

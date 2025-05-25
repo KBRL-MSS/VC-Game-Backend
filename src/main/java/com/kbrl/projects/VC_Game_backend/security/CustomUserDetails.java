@@ -1,6 +1,6 @@
 package com.kbrl.projects.VC_Game_backend.security;
 
-import com.kbrl.projects.VC_Game_backend.models.User;
+import com.kbrl.projects.VC_Game_backend.model.User;
 import java.util.Collection;
 import java.util.Collections;
 import org.springframework.security.core.GrantedAuthority;

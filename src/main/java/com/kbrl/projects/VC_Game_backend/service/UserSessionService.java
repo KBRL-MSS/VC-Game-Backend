@@ -1,7 +1,7 @@
 package com.kbrl.projects.VC_Game_backend.service;
 
-import com.kbrl.projects.VC_Game_backend.models.User;
-import com.kbrl.projects.VC_Game_backend.models.UserSession;
+import com.kbrl.projects.VC_Game_backend.model.User;
+import com.kbrl.projects.VC_Game_backend.model.UserSession;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;

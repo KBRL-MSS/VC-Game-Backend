@@ -1,12 +1,12 @@
 package com.kbrl.projects.VC_Game_backend.controller;
 
-import com.kbrl.projects.VC_Game_backend.dtos.request.GameRequests.GameDetailsRequest;
-import com.kbrl.projects.VC_Game_backend.dtos.request.GameRequests.GetGamesRequest;
-import com.kbrl.projects.VC_Game_backend.dtos.request.GameRequests.StartGameRequest;
-import com.kbrl.projects.VC_Game_backend.dtos.response.GameResponses.GameDetailsResponse;
-import com.kbrl.projects.VC_Game_backend.dtos.response.GameResponses.GetGamesResponse;
-import com.kbrl.projects.VC_Game_backend.dtos.response.GameResponses.StartGameResponse;
-import com.kbrl.projects.VC_Game_backend.models.GameType;
+import com.kbrl.projects.VC_Game_backend.dto.request.gameRequest.GameDetailsRequest;
+import com.kbrl.projects.VC_Game_backend.dto.request.gameRequest.GetGamesRequest;
+import com.kbrl.projects.VC_Game_backend.dto.request.gameRequest.StartGameRequest;
+import com.kbrl.projects.VC_Game_backend.dto.response.gameResponse.GameDetailsResponse;
+import com.kbrl.projects.VC_Game_backend.dto.response.gameResponse.GetGamesResponse;
+import com.kbrl.projects.VC_Game_backend.dto.response.gameResponse.StartGameResponse;
+import com.kbrl.projects.VC_Game_backend.model.GameType;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;

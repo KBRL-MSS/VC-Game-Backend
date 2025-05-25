@@ -1,6 +1,6 @@
 package com.kbrl.projects.VC_Game_backend.repository;
 
-import com.kbrl.projects.VC_Game_backend.models.FriendRequest;
+import com.kbrl.projects.VC_Game_backend.model.FriendRequest;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.mongodb.repository.MongoRepository;

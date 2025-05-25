@@ -1,12 +1,12 @@
 package com.kbrl.projects.VC_Game_backend.controller;
 
-import com.kbrl.projects.VC_Game_backend.dtos.FriendDto;
-import com.kbrl.projects.VC_Game_backend.dtos.FriendRequestDto;
-import com.kbrl.projects.VC_Game_backend.dtos.UserStatusDto;
-import com.kbrl.projects.VC_Game_backend.models.Friend;
-import com.kbrl.projects.VC_Game_backend.models.FriendRequest;
-import com.kbrl.projects.VC_Game_backend.models.User;
-import com.kbrl.projects.VC_Game_backend.models.UserSession;
+import com.kbrl.projects.VC_Game_backend.dto.FriendDto;
+import com.kbrl.projects.VC_Game_backend.dto.FriendRequestDto;
+import com.kbrl.projects.VC_Game_backend.dto.UserStatusDto;
+import com.kbrl.projects.VC_Game_backend.model.Friend;
+import com.kbrl.projects.VC_Game_backend.model.FriendRequest;
+import com.kbrl.projects.VC_Game_backend.model.User;
+import com.kbrl.projects.VC_Game_backend.model.UserSession;
 import com.kbrl.projects.VC_Game_backend.repository.UserRepository;
 import com.kbrl.projects.VC_Game_backend.service.FriendService;
 import java.util.List;

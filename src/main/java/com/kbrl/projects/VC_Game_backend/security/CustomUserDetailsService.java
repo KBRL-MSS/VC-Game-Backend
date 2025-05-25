@@ -1,6 +1,6 @@
 package com.kbrl.projects.VC_Game_backend.security;
 
-import com.kbrl.projects.VC_Game_backend.models.User;
+import com.kbrl.projects.VC_Game_backend.model.User;
 import com.kbrl.projects.VC_Game_backend.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

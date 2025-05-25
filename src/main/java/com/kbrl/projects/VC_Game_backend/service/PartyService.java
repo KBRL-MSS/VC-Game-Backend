@@ -1,7 +1,7 @@
 package com.kbrl.projects.VC_Game_backend.service;
 
-import com.kbrl.projects.VC_Game_backend.models.Party;
-import com.kbrl.projects.VC_Game_backend.models.PartyInvite;
+import com.kbrl.projects.VC_Game_backend.model.Party;
+import com.kbrl.projects.VC_Game_backend.model.PartyInvite;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

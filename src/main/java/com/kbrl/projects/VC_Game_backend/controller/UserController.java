@@ -1,7 +1,7 @@
 package com.kbrl.projects.VC_Game_backend.controller;
 
-import com.kbrl.projects.VC_Game_backend.dtos.UserDto;
-import com.kbrl.projects.VC_Game_backend.models.User;
+import com.kbrl.projects.VC_Game_backend.dto.UserDto;
+import com.kbrl.projects.VC_Game_backend.model.User;
 import com.kbrl.projects.VC_Game_backend.repository.UserRepository;
 import com.kbrl.projects.VC_Game_backend.service.UserService;
 import lombok.RequiredArgsConstructor;

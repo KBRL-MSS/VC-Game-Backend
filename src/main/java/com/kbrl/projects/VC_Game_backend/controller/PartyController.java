@@ -1,10 +1,10 @@
 package com.kbrl.projects.VC_Game_backend.controller;
 
-import com.kbrl.projects.VC_Game_backend.dtos.PartyDto;
-import com.kbrl.projects.VC_Game_backend.dtos.PartyInviteDto;
-import com.kbrl.projects.VC_Game_backend.models.Party;
-import com.kbrl.projects.VC_Game_backend.models.PartyInvite;
-import com.kbrl.projects.VC_Game_backend.models.User;
+import com.kbrl.projects.VC_Game_backend.dto.PartyDto;
+import com.kbrl.projects.VC_Game_backend.dto.PartyInviteDto;
+import com.kbrl.projects.VC_Game_backend.model.Party;
+import com.kbrl.projects.VC_Game_backend.model.PartyInvite;
+import com.kbrl.projects.VC_Game_backend.model.User;
 import com.kbrl.projects.VC_Game_backend.repository.UserRepository;
 import com.kbrl.projects.VC_Game_backend.service.PartyService;
 import java.util.List;
